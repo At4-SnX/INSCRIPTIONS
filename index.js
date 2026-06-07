@@ -278,10 +278,10 @@ client.on('interactionCreate', async (interaction) => {
           '### Vous souhaitez rejoindre la **Gendarmerie Nationale** ?\n\n' +
           '> Cliquez sur le bouton ci-dessous pour soumettre votre dossier de candidature.\n' +
           '> Un formulaire s\'ouvrira, complétez-le avec soin.\n\n' +
-          'Assurez-vous de renseigner vos informations **RP exactes**.'
+          '⚖️〃Assurez-vous de renseigner vos informations **RP exactes**.'
         )
         .addFields(
-          { name: '📋 Pièces demandées', value: '› Nom et Prénom RP\n› Âge RP\n› Affectation souhaitée\n› Spécialité voulue', inline: false }
+          { name: '📋〃Pièces demandées', value: '› Nom et Prénom RP\n› Âge RP\n› Affectation souhaitée\n› Spécialité voulue', inline: false }
         )
         .setFooter({ text: `${CFG.BOT_NAME} • Service des Ressources Humaines` })
         .setTimestamp();
