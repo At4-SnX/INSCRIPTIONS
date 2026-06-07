@@ -273,15 +273,15 @@ client.on('interactionCreate', async (interaction) => {
       const embed = new EmbedBuilder()
         .setColor(CFG.COLOR)
         .setAuthor({ name: CFG.BOT_NAME })
-        .setTitle('🎖️ RECRUTEMENT — GENDARMERIE NATIONALE')
+        .setTitle('🌴〃RECRUTEMENT — GENDARMERIE NATIONALE')
         .setDescription(
           '> Vous souhaitez rejoindre la **Gendarmerie Nationale** ?\n\n' +
-          'Cliquez sur le bouton ci-dessous pour soumettre votre dossier de candidature.\n' +
-          'Un formulaire s\'ouvrira, complétez-le avec soin.\n\n' +
-          '> ⚠️ Assurez-vous de renseigner vos informations **RP exactes**.'
+          '> Cliquez sur le bouton ci-dessous pour soumettre votre dossier de candidature.\n' +
+          '> Un formulaire s\'ouvrira, complétez-le avec soin.\n\n' +
+          '> Assurez-vous de renseigner vos informations **RP exactes**.'
         )
         .addFields(
-          { name: '📋 Pièces demandées', value: '› Nom et Prénom RP\n› Âge RP\n› Affectation souhaitée\n› Spécialité voulue', inline: false }
+          { name: '<@1513164266872766545>Pièces demandées', value: '› Nom et Prénom RP\n› Âge RP\n› Affectation souhaitée\n› Spécialité voulue', inline: false }
         )
         .setFooter({ text: `${CFG.BOT_NAME} • Service des Ressources Humaines` })
         .setTimestamp();
@@ -564,7 +564,7 @@ async function showModal(interaction) {
 // ─── READY ────────────────────────────────────────────────────────────────────
 client.once('ready', async () => {
   console.log(`✅ Connecté : ${client.user.tag}`);
-  client.user.setActivity('Recrutement GN', { type: ActivityType.Watching });
+  client.user.setActivity('〃Gendarmerie EHRP - IS', { type: ActivityType.Watching });
   await registerCommands();
 });
 
