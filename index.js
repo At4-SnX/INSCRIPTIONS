@@ -543,7 +543,7 @@ async function showModal(interaction) {
           .setCustomId('affectation')
           .setLabel('Affectation souhaitée')
           .setStyle(TextInputStyle.Short)
-          .setPlaceholder('Ex : Brigade de Gendarmerie de Paris')
+        
           .setRequired(true)
           .setMaxLength(120)
       ),
@@ -552,7 +552,7 @@ async function showModal(interaction) {
           .setCustomId('specialite')
           .setLabel('Spécialité voulue')
           .setStyle(TextInputStyle.Paragraph)
-          .setPlaceholder('Ex : Gendarmerie Mobile, PSIG, Gendarmerie Maritime...')
+          .setPlaceholder('Ex : GIGN AGIGN PSIG...')
           .setRequired(true)
           .setMaxLength(300)
       ),
